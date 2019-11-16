@@ -1,14 +1,273 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
-        <meta http-equiv = "X-UA-Compatible" content = "ie = edge">
-        <title> Blog - Homepage </title>
-        <link rel = "stylesheet" type = "text/css" href = "main.css">
-        <body>
-            <h1> Hello</h1>
-        </body>
-        </head>
-        </html>
-       
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--web icons and fonts from Font Awesome and google fonts-->
+    <link rel="stylesheet" href="css/icons/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Candal|Lora|Rye&display=swap" rel="stylesheet">
+    <title>Blog - Homepage</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo-text"><span>Speak</span>Out</h1>
+        </div>
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#topics">Topics</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="the-team.html">SpeakOut Team</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="page-wrapper">
+            <!--Post Sliders (Trending Posts)-->
+            <div class="post-slider">
+                <h1 class="slider-title">Trending Posts</h1>
+                <i class="fas fa-chevron-left next"></i>
+                <i class="fas fa-chevron-right prev"></i>
+
+                <div class="post-wrapper">
+                    <!--post slider 1-->
+                    <div class="post">
+                        <img src="img/header.jpg" alt="" class="slider-image">
+                        <div class="post-info">
+                            <h4><a href="single-posts/single-post.html">Developed by Joelson</a></h4>
+                            <i class="far fa-user"> Joelson Mvundura</i>
+                            &nbsp; <!--add space-->
+                            <i class="far fa-calendar"> Apr 7, 2019</i>
+                        </div>
+                    </div>
+                    <!--post slider 2-->
+                    <div class="post">
+                        <img src="img/web-browser-img.jpg" alt="" class="slider-image">
+                        <div class="post-info">
+                            <h4><a href="single-posts/single-post1.html">The Best Acheivements in Life</a></h4>
+                            <i class="far fa-user"> Antoinette Hall</i>
+                            &nbsp; <!--add space-->
+                            <i class="far fa-calendar"> Feb 15, 2019</i>
+                        </div>
+                    </div>
+                    <!--post slider 3-->
+                    <div class="post">
+                        <img src="img/ex-img.jpg" alt="" class="slider-image">
+                        <div class="post-info">
+                            <h4><a href="single-posts/single-post2.html">The Photographer</a></h4>
+                            <i class="far fa-user"> Andrea Bullos</i>
+                            &nbsp; <!--add space-->
+                            <i class="far fa-calendar"> Jan 1, 2019</i>
+                        </div>
+                    </div>
+                    <!--post slider 4-->
+                    <div class="post">
+                        <img src="img/developer-pic.jpeg" alt="" class="slider-image">
+                        <div class="post-info">
+                            <h4><a href="single-posts/single-post3.html">College Life</a></h4>
+                            <i class="far fa-user"> Adeline Uwibambe</i>
+                            &nbsp; <!--add space-->
+                            <i class="far fa-calendar"> May 17, 2018</i>
+                        </div>
+                    </div>
+                    <!--post slider 5-->
+                    <div class="post">
+                        <img src="img/new_pic.jpeg" alt="" class="slider-image">
+                        <div class="post-info">
+                            <h4><a href="single-posts/single-post4.html">Managing a computer workshop</a></h4>
+                            <i class="far fa-user"> Zolanndrea Willmson</i>
+                            &nbsp; <!--add space-->
+                            <i class="far fa-calendar"> Dec 25, 2017</i>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end of Post Sliders-->
+        
+            <!--Recent Posts-->
+            <div class="content clearfix">
+                <div class="recent-posts">
+                    <h1 class="recent-post-title">Recent Posts</h1>
+
+                    <!--recent post 1-->
+                    <div class="post">
+                        <img src="img/header.jpg" alt="" class="post-image">
+                        <div class="post-preview">
+                            <h2><a href="single-posts/single-post.html">Developed by Joelson</a></h2>
+                            <i class="far fa-user"> Joelson Mvundura</i>
+                            &nbsp; <!--add space-->
+                            <i class="far fa-calendar"> Apr 7, 2019</i>
+                            <p class="preview-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Voluptate illo consequatur ipsam illum, quia facilis.
+                            </p>
+                            <a href="single-posts/single-post.html" class="btn read-more">Read More</a>
+                        </div>
+                    </div>
+
+                    <!--recent post 2-->
+                    <div class="post">
+                        <img src="img/web-browser-img.jpg" alt="" class="post-image">
+                        <div class="post-preview">
+                            <h2><a href="single-posts/single-post1.html">The Best Acheivements in Life</a></h2>
+                            <i class="far fa-user"> Antoinette Hall</i>
+                              &nbsp; <!--add space-->
+                            <i class="far fa-calendar"> Feb 15, 2019</i>
+                            <p class="preview-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Voluptate illo consequatur ipsam illum, quia facilis.
+                            </p>
+                            <a href="single-posts/single-post1.html" class="btn read-more">Read More</a>
+                        </div>
+                    </div> 
+
+                    <!--recent post 3-->
+                    <div class="post">
+                        <img src="img/ex-img.jpg" alt="" class="post-image">
+                        <div class="post-preview">
+                            <h2><a href="single-posts/single-post2.html">The Photographer</a></h2>
+                            <i class="far fa-user"> Andrea Bullos</i>
+                            &nbsp; <!--add space-->
+                            <i class="far fa-calendar"> Jan 1, 2019</i>
+                            <p class="preview-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Voluptate illo consequatur ipsam illum, quia facilis.
+                            </p>
+                            <a href="single-posts/single-post2.html" class="btn read-more">Read More</a>
+                        </div>
+                    </div>
+
+                    <!--recent post 4-->
+                    <div class="post">
+                        <img src="img/developer-pic.jpeg" alt="" class="post-image">
+                        <div class="post-preview">
+                            <h2><a href="single-posts/single-post3.html">College Life</a></h2>
+                            <i class="far fa-user"> Adeline Uwibambe</i>
+                            &nbsp; <!--add space-->
+                            <i class="far fa-calendar"> May 17, 2018</i>
+                            <p class="preview-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Voluptate illo consequatur ipsam illum, quia facilis.
+                            </p>
+                            <a href="single-posts/single-post3.html" class="btn read-more">Read More</a>
+                        </div>
+                    </div>
+
+                    <!--recent post 5-->
+                    <div class="post">
+                        <img src="img/new_pic.jpeg" alt="" class="post-image">
+                       <div class="post-preview">
+                            <h2><a href="single-posts/single-post4.html">Managing a computer workshop</a></h2>
+                            <i class="far fa-user"> Zolanndrea Willmson</i>
+                            &nbsp; <!--add space-->
+                            <i class="far fa-calendar"> Dec 25, 2017</i>
+                            <p class="preview-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Voluptate illo consequatur ipsam illum, quia facilis.
+                            </p>
+                            <a href="single-posts/single-post4.html" class="btn read-more">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <div class="section search">
+                        <h2 class="section-title">Search</h2>
+                        <form action="index.html" method="post">
+                            <input type="text" name="search-term" class="text-input" placeholder="Search...">
+                        </form>
+                    </div>
+
+                    <div class="section topics" id="topics">
+                        <h2 class="section-title">Topics</h2>
+                        <ul>
+                            <li><a href="#">Social Life</a></li>
+                            <li><a href="#">Spiritual Life</a></li>
+                            <li><a href="#">Foreign Students Service</a></li>
+                            <li><a href="#">Academic Related Issues</a></li>
+                            <li><a href="#">Work Education</a></li>
+                            <li><a href="#">SSO</a></li>
+                            <li><a href="#">Cafeteria Menu</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div><!--end of Recent Posts-->
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2 class="logo-text"><span>Speak</span>Out</h2>
+                    <p><b style="color: blue;">Write something about us as a group.....</b> 
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum excepturi officia suscipit maxime harum, 
+                        illo sint reiciendis nam quidem perferendis ea et similique provident esse pariatur rerum, 
+                        nostrum atque dicta quasi! Esse optio, eius repellat debitis facere consequatur explicabo nihil neque officiis sunt.
+                        Amet, tempora ipsum! Ut adipisci culpa veniam fugiat? Neque eum, amet eos quaerat laboriosam placeat quibusdam nihil
+                        quos illo fuga voluptatibus laborum omnis reiciendis nisi. Soluta recusandae aliquam eaque modi eius magnam voluptatum
+                        officia alias doloremque aut.</p>
+                </div>
+
+                <div class="footer-section members" id="about">
+                    Meet the <b class="logo-text"><span>Speak</span>Out</b> team.
+                    <ul class="members-info">
+                            <li class="profile">
+                                <img alt="profile-picture" src="img/profile-pics/joelson.jpg" onerror="this.src='img/profile-pics/useravatar.png'">
+                                <p>Joelson</p>
+                            </li>
+                            <li class="profile">
+                                <img alt="profile-picture" src="img/profile-pics/adeline.jpg" onerror="this.src='img/profile-pics/useravatar.png'">
+                                <p>Adeline</p>   
+                            </li>
+                            <li class="profile">
+                                <img alt="profile-picture" src="img/profile-pics/andrea.jpg" onerror="this.src='img/profile-pics/useravatar.png'">
+                                <p>Andrea</p> 
+                            </li>
+                    </ul>
+                    <ul>
+                            <li class="profile">
+                                <img alt="profile-picture" src="img/profile-pics/antoinette.jpg" onerror="this.src='img/profile-pics/useravatar.png'">
+                                <p>Antoinette</p> 
+                            </li>
+
+                            <li class="profile">
+                                <img alt="profile-picture" src="img/profile-pics/zolanndrea.jpg" onerror="this.src='img/profile-pics/useravatar.png'">
+                                <p>Zolanndrea</p> 
+                            </li>
+                    </ul>
+                    <button class="btn btn-big contact-btn view-more-btn"><a href="the-team.html">View more about the team</a></button>
+                </div>
+
+                <div class="footer-section contact-form">
+                     <h2>Contact Us</h2>
+                     <hr>
+                     <form action="index.html" method="post" id="contact">
+                         <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                         <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                         <button type="submit" class="btn btn-big contact-btn"><i class="fas fa-envelope"> Send</i></button>
+                     </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                Copyright &copy; <span id="getYear"></span> | Designed by the <b class="logo-text"><span>Speak</span>Out</b> team.
+            </div>
+        </div>
+    </footer>
+
+    <!--JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!--JQuery for slick courasel-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!--custom script-->
+    <script src="js/main.js"></script>
+</body>
+</html>
