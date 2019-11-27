@@ -11,12 +11,12 @@ body {
     height: 100%;
     padding: 0px;
     margin: 0px;
-    background: #f6f6f6;
-    font-family: 'Lora', serif;
+    background: #f5bfa0;
+    font-family: 'avantgarde, TeX Gyre, Adventor, URW Gothic L, sans-serif, cursive';
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Candal', serif;
+    font-family: 'Trattatello';
     color: #444;
     margin: 5px;
 }
@@ -34,8 +34,8 @@ a {
 
 .btn {
     padding: .5rem 1rem;
-    background: #085a99;
-    color: black;
+    background: #6f3637;
+    color: white;
     border: 1px solid transparent;
     border-radius: .25rem;
     transition: .4s;
@@ -67,7 +67,7 @@ a {
 }
 
 header {
-    background: #00152e;
+    background: #233342;
     height: 66px;
 }
 
@@ -101,10 +101,12 @@ header ul {
 header ul li {
     float: left;
     position: relative;
+
 }
 
 header ul li i.fa-chevron-down {
     font-size: .8em;
+    font-family: 'Luminari';
 }
 
 /*drop down menu*/
@@ -426,7 +428,7 @@ header .menu-toggle {
 
 /*footer*/
 .footer {
-    background: #303036;
+    background: #233342;
     color: #d3d3d3;
     height: 400px;
     position: relative;
@@ -456,7 +458,7 @@ header .menu-toggle {
 .footer .footer-content .footer-section {
     flex: 1;
     padding: 25px;
-    border-left: 1px solid #085a99;
+    border-left: 1px solid #ce8054;
 }
 
 .footer .footer-content .footer-section.members ul {
@@ -492,7 +494,7 @@ textarea {
 }
 
 .footer .footer-content .footer-section.contact-form .contact-input {
-    background: #272727;
+    background: #6f3637;
     color: #bebdbd;
     margin-bottom: 10px;
     line-height: 1.5rem;
@@ -512,7 +514,7 @@ textarea {
 }
 
 .footer .footer-bottom {
-    background: #343a40;
+    background: #4b2b31;
     color: #686868;
     height: 50px;
     width: 100%;
