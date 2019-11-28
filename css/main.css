@@ -74,6 +74,10 @@ header {
 header * {
     color: white;
 }
+.logo-image {
+    width: 150px;
+    height: 150px;
+}
 
 header .logo {
     float: left;
@@ -540,6 +544,10 @@ textarea {
 @media only screen and (max-width: 934px) {
     .content {
         width: 100%; 
+    }
+    .logo-image {
+        height: 100px;
+        width: 100px;
     }
 
     .content .recent-posts, 
