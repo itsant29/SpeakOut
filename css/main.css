@@ -442,6 +442,10 @@ header .menu-toggle {
     height: 70px;
     width: 210px;
 }
+.footer-imageDes {
+    height: 30px;
+
+}
 .footer .logo-text {
     margin: 0px;
     font-family: 'Rye', serif;
