@@ -78,6 +78,10 @@ header * {
     width: 150px;
     height: 150px;
 }
+.logo-image2{
+    width: 140px;
+    height: 140px;
+}
 
 header .logo {
     float: left;
@@ -446,6 +450,9 @@ header .menu-toggle {
     height: 30px;
 
 }
+.footer-image2{
+    height: 50px;
+}
 .footer .logo-text {
     margin: 0px;
     font-family: 'Rye', serif;
@@ -554,6 +561,10 @@ textarea {
         width: 100%; 
     }
     .logo-image {
+        height: 100px;
+        width: 100px;
+    }
+    .logo-image2 {
         height: 100px;
         width: 100px;
     }
