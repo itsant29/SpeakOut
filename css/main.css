@@ -438,6 +438,10 @@ header .menu-toggle {
     position: relative;
 }
 
+.footer-image {
+    height: 70px;
+    width: 210px;
+}
 .footer .logo-text {
     margin: 0px;
     font-family: 'Rye', serif;
