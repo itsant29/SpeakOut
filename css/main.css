@@ -167,6 +167,7 @@ header .menu-toggle {
 }
 
 .page-wrapper {
+    margin-top: 75px;
     min-height: 100%;
 }
 
@@ -438,7 +439,7 @@ header .menu-toggle {
 .footer {
     background: #233342;
     color: #d3d3d3;
-    height: 400px;
+    height: 455px;
     position: relative;
 }
 
@@ -465,7 +466,7 @@ header .menu-toggle {
 }
 
 .footer .footer-content {
-    height: 350px;
+    height: 380px;
     display: flex;
 }
 
@@ -509,7 +510,7 @@ header .menu-toggle {
 }
 
 textarea {
-    height: 150px;
+    height: 170px;
 }
 
 .footer .footer-content .footer-section.contact-form .contact-input {
@@ -535,13 +536,13 @@ textarea {
 .footer .footer-bottom {
     background: #4b2b31;
     color: #686868;
-    height: 50px;
+    height: 65px;
     width: 100%;
     text-align: center;
     position: absolute;
     bottom: 0px;
     left: 0px;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .footer .footer-bottom .logo-text  {
@@ -557,6 +558,14 @@ textarea {
 
 /*mobile responsive*/
 @media only screen and (max-width: 934px) {
+    .page-wrapper {
+        margin-top: 0px;
+    }
+
+    .main-content-wrapper {
+        padding: 10px;
+    }
+
     .content {
         width: 100%; 
     }
@@ -605,7 +614,7 @@ textarea {
     }
 
     .footer .footer-content .contact-form {
-        padding-bottom: 60px;
+        padding-bottom: 70px;
     }
 
     .footer .footer-content .contact-form .contact-btn {
@@ -616,10 +625,6 @@ textarea {
 @media only screen and (max-width: 770px) {
     header {
         position: relative;
-    }
-
-    .main-content-wrapper {
-        padding: 10px;
     }
 
     header ul {
