@@ -8,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d dist"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/itsant29/SpeakOut.git"
@@ -18,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/itsant29/SpeakOut/issues"
   },
-
   "dependencies": {
     "gh-pages": "^2.1.1"
   },
