@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "gh-pages": "^2.1.1"
-  },
-  "devDependencies": {},
+  "homepage": "https://github.io/itsant29/SpeakOut",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
 
   "repository": {
@@ -20,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/itsant29/SpeakOut/issues"
   },
-  "homepage": "https://github.io/itsant29/SpeakOut"
+
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "devDependencies": {}
 }
