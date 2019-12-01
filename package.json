@@ -1,0 +1,19 @@
+{
+  "name": "speakout-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antoinette Hall, Andrea Bullos, Adeline Uwibambe, Marjorie Guran, Joelson Mvundura",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsant29/SpeakOut.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itsant29/SpeakOut/issues"
+  },
+  "homepage": "https://github.com/itsant29/SpeakOut#readme",
+  "description": ""
+}
